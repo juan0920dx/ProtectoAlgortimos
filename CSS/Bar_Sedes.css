@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../IMG/Fondos/C_Inventario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.titulo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boton-cerrar-sesion {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid transparent;
+    color: #ffffff;
+    background-color: rgb(237, 47, 47);
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.boton-cerrar-sesion:hover {
+    background-color: #f80101;
+    text-decoration: none;
+    color: white;
+}
+
+.mesas-container {
+    display: flex;
+    justify-content: space-around; 
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0 10px;
+}
+
+.mesa {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mesa figure {
+    margin-right: 20px;
+}
+
+.mesa-info {
+    text-align: left;
+}
+
+.mesa h2 {
+    margin-top: 0;
+}
+
+.mesa button {
+    margin-top: 10px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.ocupada {
+    background-color: red;
+}
+
+.disponible {
+    background-color: green;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}

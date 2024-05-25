@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(../IMG/Fondos/HomeMesero.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.contenedor {
+  width: 600px;
+  margin: 50px auto 20px;
+  background-color: rgba(0, 0, 0, 0.44);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.encabezado {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.64);
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+select {
+  background-color: rgba(0, 0, 0, 0.64);
+  color: white;
+}
+
+select::-webkit-scrollbar {
+  width: 12px; 
+}
+
+select::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.44);
+}
+
+h1 {
+  letter-spacing: 10px;
+}
+
+h2 {
+  letter-spacing: 3px;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  color: white;
+  text-align: center;
+}
+
+.contenido {
+  padding: 20px;
+}
+
+.grupo-formulario {
+  margin-bottom: 15px;
+}
+
+label {
+  padding: 10px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.56);
+  border-radius: 3px;
+  font-family: inherit;
+}
+
+#cantidad {
+  background-color: rgba(0, 0, 0, 0.5); 
+  width: 100px;
+  margin-right: 10px;
+  color: white;
+}
+
+.boton-dalwe,
+#volver {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.boton-dalwe:hover,
+#volver:hover {
+  background-color: #c9302c;
+}
+
+#volver {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#resumen-pedido-lista {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+}

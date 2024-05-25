@@ -1,0 +1,116 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../IMG/Fondos/A_InventarioSedes.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-negro {
+  background-color: rgba(0, 0, 0, 0.594);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 800px; /* Establecer un ancho máximo */
+  margin: 50px auto; /* Centrar vertical y horizontalmente */
+  overflow: auto; /* Agregar desplazamiento si el contenido es demasiado grande */
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0 0 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table.productos {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgba(0, 0, 0, 0.594);
+}
+
+table.productos th,
+table.productos td {
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+table.productos th {
+  background-color: rgba(0, 0, 0, 0.594);
+}
+
+.botones {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.insertar,
+.volver {
+  color: #fff;
+  background-color: #c9302c;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-left: 10px;
+}
+
+.insertar:hover,
+.volver:hover {
+  background-color: #d9534f;
+}
+
+.tabla-scrollable {
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+.tabla-scrollable::-webkit-scrollbar {
+  width: 10px;
+  background-color: #50505000;
+}
+
+.tabla-scrollable::-webkit-scrollbar-thumb {
+  background-color: #88888838;
+  border-radius: 5px;
+}
+
+.tabla-scrollable::-webkit-scrollbar-corner {
+  background-color: #00000000;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .contenedor-negro {
+    max-width: 90%; /* Reducir el ancho máximo */
+  }
+}
+
+/* Media query para pantallas muy pequeñas (móviles) */
+@media (max-width: 576px) {
+  .contenedor-negro {
+    padding: 10px; /* Reducir el espacio interno */
+  }
+}

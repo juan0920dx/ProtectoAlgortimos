@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(../IMG/Fondos/HomeCajero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.contenido {
+  background-color: #524f4f38;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+  padding: 20px;
+}
+
+header h2 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+header h3 {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.seccion-mesa,
+.seccion-pago {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c9302c;
+}
+
+.boton-cerrar-sesion,
+.boton-ingreso-productos {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #d9534f;
+    color: #fff;
+    margin-right: 10px; 
+    text-decoration: none;
+}
+.boton-cerrar-sesion:hover,
+.boton-ingreso-productos:hover {
+    background-color: #c9302c;
+}
+.botones {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.tabla-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+thead {
+  background-color: #00000065;
+  color: white;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+tfoot td {
+  background-color: #f2f2f2;
+  text-align: right;
+}
+
+tfoot td:first-child {
+  text-align: left;
+}
+
+p, label{
+  color: white;
+}

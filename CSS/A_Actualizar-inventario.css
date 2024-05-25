@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(../IMG/Fondos/A_Inventario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.692);
+    color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.grupo-formulario {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input[type="number"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+}
+button .boton{
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #d43535;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+    border: none;
+}
+
+.boton:hover {
+    background-color: #dc3e3e;
+}
+
+.Ingresar-producto {
+    background-color: #dc3e3e;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .Ingresar-producto:hover {
+    background-color: #dc3e3e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .Ingresar-producto:active {
+    background-color: #dc3e3e;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  h1, h2{
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  
